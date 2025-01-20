@@ -20,7 +20,7 @@
 
 ### 5: Calculadora de Área
 
-    Faça um programa que calcule a área de um círculo, quadrado e triângulo.  
+- Faça um programa que calcule a área de um círculo, quadrado e triângulo.  
 
 ## Getting Started
 
