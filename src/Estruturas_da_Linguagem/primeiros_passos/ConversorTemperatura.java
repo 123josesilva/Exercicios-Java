@@ -1,3 +1,4 @@
+package Estruturas_da_Linguagem.primeiros_passos;
 import java.util.Scanner;
 
 // Escreva um programa que converta uma temperatura de Celsius para Fahrenheit e vice-versa.

@@ -1,3 +1,4 @@
+package Estruturas_da_Linguagem.primeiros_passos;
 public class CalculadoraDeArea {
     // Faça um programa que calcule a área de um círculo, quadrado e triângulo. 
     public static void main(String[] args){
