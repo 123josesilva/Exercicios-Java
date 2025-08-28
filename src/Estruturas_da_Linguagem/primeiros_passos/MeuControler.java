@@ -1,3 +1,4 @@
+package Estruturas_da_Linguagem.primeiros_passos;
 public class MeuControler {
     private int userInput;
 

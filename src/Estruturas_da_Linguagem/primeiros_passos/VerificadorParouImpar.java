@@ -1,3 +1,4 @@
+package Estruturas_da_Linguagem.primeiros_passos;
 
 // Solicite um número ao usuário e informe se ele é par ou ímpar.
 import java.util.Scanner;
