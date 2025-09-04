@@ -1,12 +1,15 @@
-<h1 align="center">For Loop exercicio Numeros primos</h1>
+# For Loop – Exercício: Números Primos
 
-* Desafio: criar uma class `myNumber` com os seguintes metodos ->
-    * 1 `isPrime` verificar se determinado numero é primo.
-    * 2 `sumUpToN` dado determinado numero x, encontre a soma de todos os numeros até x.
-    * 3 `sumOfDivisors` dado determinado numero x, encontre todos os divisores de x e some exeto 1 e x.
-    * 4 `printANumberTriangle` imprimir um triangulo numerico 
-    ```
-        \\1
-        \\1 2
-        \\1 2 3
-    ```
+**Desafio:**  
+Criar uma classe `MyNumber` com os seguintes métodos:
+
+1. **`isPrime`** → verificar se um número é primo.  
+2. **`sumUpToN`** → dado um número `x`, calcular a soma de todos os números de `1` até `x`.  
+3. **`sumOfDivisors`** → dado um número `x`, calcular a soma de todos os divisores de `x` (exceto `1` e `x`).  
+4. **`printANumberTriangle`** → imprimir um triângulo numérico no seguinte formato:  
+
+   ```text
+   1
+   1 2
+   1 2 3
+   ```
