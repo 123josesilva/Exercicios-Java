@@ -6,7 +6,7 @@ public class Calculadora {
 
     public void mainMethod() {
         Scanner sc = new Scanner(System.in);
-        int userInput = 0;
+        int userInput = -2;
         System.out.println("para sair digite um numero negativo");
 
         do {
