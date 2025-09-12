@@ -1,25 +1,26 @@
 package POO.online_shopping_system;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Cart {
-    // actions
-    public Produto products;
-    public Produto[] storage;
-    // methods
-    // cart product storage
-    // show cart
-    // total do carrinho
+    private List<Produto> produtos = new ArrayList<>();
+    private double totalCart;
 
-    // metodo para armazenar produtos{quantidade, prduto}
-    ArrayList<Produto> listCart = new ArrayList<Produto>();
-
-    public void storageOfProducts(Produto prod) {
-        listCart.add(prod); 
+    public void storageOfProducts(Produto produto) {
+        produtos.add(produto);
     }
 
-    public void showCart(){
-        System.out.println(listCart.size());
-        System.out.println(listCart);
+    public void showCart() {
+        
+        for (int i = 0; i < produtos.size(); i++) {
+            totalCart = totalCart + produtos.get(i).price;
+            System.out.println("" + produtos.get(i).productName);
+            System.out.println("" + produtos.get(i).marca);
+            System.out.println("" + produtos.get(i).price);
+        }
+
+        System.out.println("totoal do carrinho: " + totalCart);
+        System.out.println("quantidade de itens: " + produtos.size());
     }
 }

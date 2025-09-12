@@ -1,19 +1,26 @@
 package POO.online_shopping_system;
 
 public class Usuario {
-    //atributo 
-    //id
-    // name
-    //email 
-    //cart 
-    public double id; 
-    public String name; 
-    public String email;  
-    public Produto prod; 
-    public Cart userCart;  
 
-    public void addToCart(Cart userCart, Produto prod){
-        userCart.storageOfProducts(prod);
+    private double id; 
+    private String name; 
+    private String email;  
+    private Cart userCart;  
+
+    public Usuario(double id, String name, String email){
+        this.id = id; 
+        this.name = name; 
+        this.email = email; 
+        this.userCart = new Cart(); 
+
+    }
+
+    public void addToCart(Produto produto){
+        userCart.storageOfProducts(produto);
     } 
 
-}
+    public void viewCart(){
+        userCart.showCart();
+    }
+
+}   
