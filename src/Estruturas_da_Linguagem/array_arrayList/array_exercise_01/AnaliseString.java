@@ -34,8 +34,7 @@ public class AnaliseString {
         }
 
         for (int i = 0; i < contadorDeString.size(); i++) {
-            System.out.println("dia: " + guardaOsResultados.get(i));
-            System.out.println("total de letras: " + contadorDeString.get(i));
+            System.out.println("dia: " + guardaOsResultados.get(i) + "total de letras: " + contadorDeString.get(i));
         }
     }
 
